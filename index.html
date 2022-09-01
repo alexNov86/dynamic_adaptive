@@ -8,7 +8,43 @@
     <title>Dynamic adaptive</title>
   </head>
   <body>
-    <h1>FFFFFF</h1>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__logo">Динамический адаптив</div>
+      </header>
+      <main class="content">
+        <section class="content__section">
+          <h2 class="content__title">Я Город</h2>
+          <div class="content__blocks content__blocks_city">
+            <div class="content__block content__block_1">Я Коля</div>
+            <div class="content__block content__block_2 click">Я Аня</div>
+            <div
+              data-da=".content__column_river,992,1"
+              class="content__block content__block_item content__block_3"
+            >
+              Я Ваня
+            </div>
+          </div>
+        </section>
+        <section class="content__section">
+          <h2 class="content__title">Я Бабушка</h2>
+          <div class="content__row">
+            <div class="content__column content__column_garden">
+              <h3 class="content__title">Я огород</h3>
+              <div class="content__block content__block_2">Я Дима</div>
+            </div>
+            <div class="content__column content__column_river">
+              <h3 class="content__title">Я Речка</h3>
+              <div class="content__block content__block_3">Я Оля</div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__text">Я в подвале</div>
+      </footer>
+    </div>
+    <script src="js/dynamicAdapt_dev-preserve-order.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
